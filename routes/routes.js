@@ -5,7 +5,7 @@ import {db} from '../mongodb.js';
 
 export const router = express.Router();
 
-//rutas collection usuarios
+//rutas collection usuarios actualizacion sprint2
 
 router.post('/reguser', regusuario);
 router.get('/shuser', showuser);
